@@ -35,6 +35,8 @@ for (let image of images){
     image.src = randomURLS.pop();
 }
 
+const header = document.querySelector('h1');
+header.textContent += '!';
 /*
     Step 1:
     - Create an array named 'urls' of eight strings containing the following values:
